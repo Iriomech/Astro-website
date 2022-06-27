@@ -10,57 +10,46 @@ const ProjectList = () => (
   <Section
     title={
       <>
-        Recent <GradientText>Projects</GradientText>
+        Recent <GradientText>Works</GradientText>
       </>
     }
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="Web Developer Internship - Secret Source"
+        description="I was part of a team of interns and we were commissioned with a project with Reactjs, Typescript and Jest, we also organized ourselves through SCRUM.
+        The experience was enriching and super stimulating, because it was my first time using many of the technologies and working in such a large team with so many points of view.
+        I learned a lot about the development process and how to work in a team, and how to communicate with the team and how to make sure that the project is done on time."
+        link="https://www.secret-source.eu"
         img={{
-          src: '/assets/images/project-web-design.png',
-          alt: 'Project Web Design',
+          src: 'https://pbs.twimg.com/profile_images/1222541823115190272/onT8JOZ4_400x400.jpg',
+          alt: 'Secret Source logo',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.SKY}>React.js</Tags>
+            <Tags color={ColorTags.BLUE}>TypeScript</Tags>
+            <Tags color={ColorTags.PINK}>Styled-Components</Tags>
+            <Tags color={ColorTags.RED}>Jest</Tags>
+            <Tags color={ColorTags.GREEN}>SCRUM</Tags>
           </>
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        name="Más ProQuo Website - Pro Inclusiva"
+        description="I was part of a team of two developers in charge of creating the web application for the Más ProQuo project. The web application was programmed with Vue.js and Laravel.
+        This project was somewhat chaotic due to the short period of time and that it was developed at the same time that each one was doing the practices in a different company."
+        link="https://www.proinclusiva.org"
+        img={{
+          src: 'https://proinclusiva.org/wp-content/uploads/2021/02/cropped-cropped-Logo-Pro-Inclusiva-512.png',
+          alt: 'Secret Source logo',
+        }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
+            <Tags color={ColorTags.GREEN}>Vue.js</Tags>
+            <Tags color={ColorTags.RED}>Laravel</Tags>
             <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
-          </>
-        }
-      />
-      <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
-        category={
-          <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.BLUE}>PHP</Tags>
           </>
         }
       />

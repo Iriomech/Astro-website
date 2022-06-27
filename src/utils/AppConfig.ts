@@ -1,8 +1,9 @@
 export const AppConfig = {
-  site_name: 'Astro boilerplate',
-  title: 'Astro boilerplate',
-  description: 'Boilerplate built with Astro using React and Tailwind CSS',
-  author: 'Emma',
-  locale_region: 'en-us',
+  site_name: 'Iriomech Portfolio',
+  title: 'Iriomech - Portfolio',
+  description:
+    'I am a full-stack developer with a passion for building web applications. I have a certificate in Full-Stack Web Development from the Integrated Vocational Training Center Majada Marcial in the Canary Islands.',
+  author: 'Iriomech',
+  locale_region: 'en-US',
   locale: 'en',
 };
